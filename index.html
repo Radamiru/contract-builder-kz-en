@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Конструктор договоров</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <p class="eyebrow">LEGAL DRAFTING ASSISTANT</p>
+        <h1>Конструктор договоров</h1>
+        <p class="lede">Соберите структурированное ТЗ для проекта договора по праву Казахстана или Англии.</p>
+      </header>
+
+      <section class="notice" aria-label="Юридическое уведомление">
+        <strong>Важно.</strong> Результат — рабочий черновик, а не юридическая консультация. Перед подписанием передайте договор юристу, допущенному к практике в нужной юрисдикции.
+      </section>
+
+      <nav class="steps" aria-label="Этапы">
+        <span class="step active" data-step="1">1. Применимое право</span>
+        <span class="line"></span>
+        <span class="step" data-step="2">2. Тип договора</span>
+        <span class="line"></span>
+        <span class="step" data-step="3">3. Детали</span>
+        <span class="line"></span>
+        <span class="step" data-step="4">4. Черновик</span>
+      </nav>
+
+      <section class="panel" id="wizard" aria-live="polite"></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
